@@ -8,8 +8,8 @@
 	*http://developer.yahoo.com/yui/license.txt
 
 	Font-size Adjustment
-	
-	77% = 10px	|	123.1% = 16px	|	167% = 22px	
+
+	77% = 10px	|	123.1% = 16px	|	167% = 22px
 	85% = 11px	|	131% = 17px		|	174% = 23px
 	93% = 12px	|	138.5% = 18px	|	184% = 24px
 	100% = 13px	|	146.5% = 19px	|	192% = 25px
@@ -17,7 +17,6 @@
 	116% = 15px	|	161.6% = 21px	|
 
 =======================================*/
-
 
 /**
  * 目次
@@ -38,8 +37,108 @@ Copyright 2012 Yahoo! Inc. All rights reserved.
 Licensed under the BSD License.
 http://yuilibrary.com/license/
 */
-html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}input,textarea,select{*font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none}
-
+html {
+  color: #000;
+  background: #fff;
+}
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+fieldset,
+img {
+  border: 0;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ol,
+ul {
+  list-style: none;
+}
+caption,
+th {
+  text-align: left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+q:before,
+q:after {
+  content: "";
+}
+abbr,
+acronym {
+  border: 0;
+  font-variant: normal;
+}
+sup {
+  vertical-align: text-top;
+}
+sub {
+  vertical-align: text-bottom;
+}
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+input,
+textarea,
+select {
+  *font-size: 100%;
+}
+legend {
+  color: #000;
+}
+#yui3-css-stamp.cssreset {
+  display: none;
+}
 
 /* ==========================================================================
    02. fonts
@@ -51,89 +150,166 @@ Copyright 2012 Yahoo! Inc. All rights reserved.
 Licensed under the BSD License.
 http://yuilibrary.com/license/
 */
-body{font:13px/1.231 arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small}select,input,button,textarea{font:99% arial,helvetica,clean,sans-serif}table{font-size:inherit;font:100%}pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%}#yui3-css-stamp.cssfonts{display:none}
-
+body {
+  font: 13px/1.231 arial, helvetica, clean, sans-serif;
+  *font-size: small;
+  *font: x-small;
+}
+select,
+input,
+button,
+textarea {
+  font: 99% arial, helvetica, clean, sans-serif;
+}
+table {
+  font-size: inherit;
+  font: 100%;
+}
+pre,
+code,
+kbd,
+samp,
+tt {
+  font-family: monospace;
+  *font-size: 108%;
+  line-height: 100%;
+}
+#yui3-css-stamp.cssfonts {
+  display: none;
+}
 
 /* ==========================================================================
    03. BaseSet
    ========================================================================== */
-   
+
 body {
-	font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ",
+    Meiryo, "ＭＳ Ｐゴシック", sans-serif;
 }
 
-html{
-	color:#252525;
-	/*overflow-y: scroll;*/
+html {
+  color: #252525;
+  /*overflow-y: scroll;*/
 }
 
-* html body{
-	width: expression(document.body.clientWidth < 962? "960px" : "auto");
+* html body {
+  width: expression(document.body.clientWidth < 962? "960px": "auto");
 }
-
 
 /* link
    ========================================================================== */
 
-a{
-	color:#252525;
-	text-decoration:underline;
+a {
+  color: #252525;
+  text-decoration: underline;
 }
 
-a:visited{
-	color:#252525;
-	text-decoration:underline;
+a:visited {
+  color: #252525;
+  text-decoration: underline;
 }
 
-a:hover{
-	color:#252525;
-	min-height: 1em; /* Mac Firefox */
-	text-decoration:none;
+a:hover {
+  color: #252525;
+  min-height: 1em; /* Mac Firefox */
+  text-decoration: none;
 }
 
 /*Win Firefox用*/
-:focus{
-    -moz-outline-style:none;
+:focus {
+  -moz-outline-style: none;
 }
 /*Mac Firefox用*/
-a { outline:none;} 
+a {
+  outline: none;
+}
 
 /* bold link */
 
-a.bold{ font-weight:bold; }
+a.bold {
+  font-weight: bold;
+}
 
 /* fontsize
    ========================================================================== */
 
-p, li, dt, dd, th, td , input, textarea, select, h1, h2, h3, h4, h5, h6 {
-	font-size:93%;
+p,
+li,
+dt,
+dd,
+th,
+td,
+input,
+textarea,
+select,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 93%;
 }
 
-.text10 { font-size:77%; }
-.text11 { font-size:85%; }
-.text12 { font-size:93%; }
-.text13 { font-size:100%; }
-.text14 { font-size:108%; }
-.text15 { font-size:116%; }
-.text16 { font-size:123.1%; }
-.text17 { font-size:131%; }
-.text18 { font-size:138.5%; }
-.text19 { font-size:146.5%; }
-.text20 { font-size:153.9%; }
-.text21 { font-size:161.6%; }
-.text22 { font-size:167%; }
-.text23 { font-size:174%; }
-.text24 { font-size:184%; }
-.text25 { font-size:189%; }
-.text26 { font-size:197%; }
+.text10 {
+  font-size: 77%;
+}
+.text11 {
+  font-size: 85%;
+}
+.text12 {
+  font-size: 93%;
+}
+.text13 {
+  font-size: 100%;
+}
+.text14 {
+  font-size: 108%;
+}
+.text15 {
+  font-size: 116%;
+}
+.text16 {
+  font-size: 123.1%;
+}
+.text17 {
+  font-size: 131%;
+}
+.text18 {
+  font-size: 138.5%;
+}
+.text19 {
+  font-size: 146.5%;
+}
+.text20 {
+  font-size: 153.9%;
+}
+.text21 {
+  font-size: 161.6%;
+}
+.text22 {
+  font-size: 167%;
+}
+.text23 {
+  font-size: 174%;
+}
+.text24 {
+  font-size: 184%;
+}
+.text25 {
+  font-size: 189%;
+}
+.text26 {
+  font-size: 197%;
+}
 
 #contents p,
 #contents li,
 #contents dt,
 #contents dd,
 #contents th,
-#contents td{
-	line-height:1.5;
+#contents td {
+  line-height: 1.5;
 }
 
 p.txtSmall,
@@ -142,179 +318,223 @@ dl.txtSmall dd,
 span.txtSmall,
 ul.txtSmall li,
 ol.txtSmall li,
-div.txtSmall p{
-	font-size:78% !important;
+div.txtSmall p {
+  font-size: 78% !important;
 }
 
 ul.inner li,
-td.inner{
-	font-size:100% !important;
+td.inner {
+  font-size: 100% !important;
 }
-
 
 /* image
    ========================================================================== */
 
-img{
-	vertical-align:bottom;
-	line-height:1.0;
+img {
+  vertical-align: bottom;
+  line-height: 1;
 }
 
 table th img,
-table td img{
-	vertical-align:middle;
+table td img {
+  vertical-align: middle;
 }
-
 
 /* ClearFix
    ========================================================================== */
-.clear{
-	clear:both;
+.clear {
+  clear: both;
 }
 
 /* modern browsers */
 
 .clearfix:after,
 .fBox:after,
-#cnt:after{
-	content: ".";
-	display: block;
-	height: 0;
-	clear: both;
-	visibility: hidden;
+#cnt:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
 }
 
 /* IE7 */
 
 .clearfix,
 .fBox,
-#cnt{
-	display: inline-block;
+#cnt {
+  display: inline-block;
 }
 
 /* legacy IE */
 
 * html .clearfix,
-* html .fBox{
-	height: 1%;
+* html .fBox {
+  height: 1%;
 }
 
 .clearfix,
 .fBox,
-#cnt{
-	display: block;
+#cnt {
+  display: block;
 }
-
 
 /* float
    ========================================================================== */
 
-.fr{
-	float:right;
+.fr {
+  float: right;
 }
 
-.fl{
-	float:left;
+.fl {
+  float: left;
 }
 
-ul.fBox li{
-	float:left;
-	display:inline;
+ul.fBox li {
+  float: left;
+  display: inline;
 }
 
-.in-block{
-	letter-spacing:-.40em;
+.in-block {
+  letter-spacing: -0.4em;
 }
-	.in-block li,
-	.in-block dt,
-	.in-block dd{
-		display:inline-block;
-		/display:inline;
-		/zoom:1;
-		letter-spacing:normal;
-		vertical-align:top;
-	}
-
+.in-block li,
+.in-block dt,
+.in-block dd {
+  display: inline-block;
+  /display: inline;
+  /zoom: 1;
+  letter-spacing: normal;
+  vertical-align: top;
+}
 
 /* text style
    ========================================================================== */
 
-.text-bold{
-	font-weight:bold;
+.text-bold {
+  font-weight: bold;
 }
-
 
 /* margin
    ========================================================================== */
 
-.mt0{ margin-top:0 !important; }
-.mt5{ margin-top:5px !important; }
-.mt10{ margin-top:10px !important; }
-.mt15{ margin-top:15px !important; }
-.mt20{ margin-top:20px !important; }
-.mt25{ margin-top:25px !important; }
-.mt30{ margin-top:30px !important; }
-.mt40{ margin-top:40px !important; }
-.mt50{ margin-top:50px !important; }
-.mt60{ margin-top:60px !important; }
+.mt0 {
+  margin-top: 0 !important;
+}
+.mt5 {
+  margin-top: 5px !important;
+}
+.mt10 {
+  margin-top: 10px !important;
+}
+.mt15 {
+  margin-top: 15px !important;
+}
+.mt20 {
+  margin-top: 20px !important;
+}
+.mt25 {
+  margin-top: 25px !important;
+}
+.mt30 {
+  margin-top: 30px !important;
+}
+.mt40 {
+  margin-top: 40px !important;
+}
+.mt50 {
+  margin-top: 50px !important;
+}
+.mt60 {
+  margin-top: 60px !important;
+}
 
-.mb0{ margin-bottom:0 !important; }
-.mb5{ margin-bottom:5px !important; }
-.mb10{ margin-bottom:10px !important; }
-.mb15{ margin-bottom:15px !important; }
-.mb20{ margin-bottom:20px !important; }
-.mb25{ margin-bottom:25px !important; }
-.mb30{ margin-bottom:30px !important; }
+.mb0 {
+  margin-bottom: 0 !important;
+}
+.mb5 {
+  margin-bottom: 5px !important;
+}
+.mb10 {
+  margin-bottom: 10px !important;
+}
+.mb15 {
+  margin-bottom: 15px !important;
+}
+.mb20 {
+  margin-bottom: 20px !important;
+}
+.mb25 {
+  margin-bottom: 25px !important;
+}
+.mb30 {
+  margin-bottom: 30px !important;
+}
 
-.mr5{ margin-right:5px !important; }
-.mr10{ margin-right:10px !important; }
-.mr15{ margin-right:15px !important; }
-.mr20{ margin-right:20px !important; }
+.mr5 {
+  margin-right: 5px !important;
+}
+.mr10 {
+  margin-right: 10px !important;
+}
+.mr15 {
+  margin-right: 15px !important;
+}
+.mr20 {
+  margin-right: 20px !important;
+}
 
-.ml5{ margin-left:5px !important; }
-.ml10{ margin-left:10px !important; }
-.ml15{ margin-left:15px !important; }
-.ml20{ margin-left:20px !important; }
-
+.ml5 {
+  margin-left: 5px !important;
+}
+.ml10 {
+  margin-left: 10px !important;
+}
+.ml15 {
+  margin-left: 15px !important;
+}
+.ml20 {
+  margin-left: 20px !important;
+}
 
 /* form label
    ========================================================================== */
 
 input,
-textarea{
-	vertical-align:middle;
-	outline:0px none #fff;
+textarea {
+  vertical-align: middle;
+  outline: 0px none #fff;
 }
 
-label{
-	vertical-align:middle;
+label {
+  vertical-align: middle;
 }
 
-select{
-	border:1px solid #e3e3eb;
+select {
+  border: 1px solid #e3e3eb;
 }
 
 /* position
    ========================================================================== */
 
-.text-r{
-	text-align:right !important;
+.text-r {
+  text-align: right !important;
 }
 
 .text-c,
 table.text-c th,
 table.text-c td,
-table.th-c th{
-	text-align:center !important;
+table.th-c th {
+  text-align: center !important;
 }
 
-.text-l{
-	text-align:left !important;
+.text-l {
+  text-align: left !important;
 }
 
 /* display
    ========================================================================== */
 
-.block{
-	display:block;
+.block {
+  display: block;
 }

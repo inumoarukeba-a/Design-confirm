@@ -14,28 +14,15 @@ echo '<meta name="viewport" content="width=1366">';
 <meta name="description" content="" />
 <meta name="keywords" content="" />
 
-<link href="../../common/css/common.css" rel="stylesheet" type="text/css" media="all" />
-<link href="../../common/css/layout.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/_design/common/css/common.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/_design/common/css/index.css" rel="stylesheet" type="text/css" media="all" />
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" type="text/javascript"></script>
-<script src="../../common/js/script.js" type="text/javascript"></script>
-<style>
-html,body{
-height:100%;
-}
-
-body {
-padding: 0;
-margin: 0;
-}
-
-</style>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" type="text/javascript"></script>
+<script src="/_design/common/js/script.js" type="text/javascript"></script>
 </head>
 
 <body class="smt">
-
-<div id="main"><img src="" alt="" /></div>
-
+  <div id="main"><img src="" alt="" /></div>
 </body>
 
 </html>
